@@ -1,0 +1,343 @@
+body
+{
+background-color: #1d478b;    
+}
+
+.header_white_bg
+{
+z-index: 1;
+width:100%;
+height: 76px;
+position:absolute;
+display: block;
+left: 0px;
+top: 0px;
+background-color: white;
+}
+
+.holder
+{
+z-index: 2;
+width:1280px;
+position:relative;
+border: 0px solid red;
+text-align: center;
+background-color: #1d478b;
+}
+
+.header
+{
+z-index: 2;
+position:relative;
+width: 100%;
+height: 68px;
+background-image: url(../images/header.png);
+}
+
+.divider
+{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.align_to_right
+{
+position:relative;
+text-align: right;
+margin-right: 160px;
+}
+
+.facebook_connect
+{
+position:relative;
+float: right;
+margin-right: 160px;
+margin-top: 30px;
+}
+
+
+.top
+{
+position:relative;
+width: 100%;
+}
+
+.top_bg
+{
+z-index: 1;
+position: absolute;
+left: 0px;
+}
+
+.social
+{
+z-index: 2;
+position:relative;
+display: block;
+width: 1110px;
+margin: 10px 0px 10px 0px;
+text-align: right;
+}
+
+.social a
+{
+text-decoration: none;
+outline:medium none;
+margin-left: -3px;
+}
+
+.social a img
+{
+border:medium none;
+}
+
+
+.rating
+{
+z-index: 2;
+position:relative;
+width: 100%;
+font-size: 150px;
+color: white;
+}
+
+.small1
+{
+font-size: 20px;
+}
+
+.small2
+{
+font-size: 50px;
+}
+
+.small3
+{
+font-size: 12px;
+font-style: italic;
+}
+
+.small4
+{
+font-size: 30px;
+}
+
+
+.recent_quote
+{
+z-index: 2;
+position: relative;
+width: 100%;
+font-size: 30pt;
+color: white;
+}
+
+.recent_quote a
+{
+color: white;
+text-decoration: none;
+}
+
+.recent_quote a:hover
+{
+text-decoration: underline;
+}
+
+.recent_quote a img
+{
+border:medium none;
+}
+
+.number_of_tweets
+{
+z-index: 2;
+position: relative;
+width: 100%;
+font-size: 50pt;
+color: white;
+}
+
+.tweet_count
+{
+position: relative;
+width: 100%;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+.twitter_logo
+{
+position:relative;
+text-align: right;
+margin-right: 160px;    
+}
+
+.twitter_logo a img
+{
+border:medium none;
+}
+
+.post_tweet
+{
+z-index: 2;
+position: relative;
+width: 100%;
+font-size: 12pt;
+color: white;
+}
+
+.recent_tweets
+{
+z-index: 2;
+position: relative;
+width: 100%;
+color: white;
+font-family: arial;
+font-size: 10pt;
+line-height: 20px;
+}
+
+.recent_tweets a
+{
+color: white;
+text-decoration: underline;
+}
+
+.recent_tweets a:hover
+{
+text-decoration: underline;
+}
+
+.recent_tweets a img
+{
+border:medium none;
+}
+
+.hlink a
+{
+text-decoration: none;
+}
+
+.hlink a:hover
+{
+text-decoration: underline;
+}
+
+
+.tweet
+{
+width: 860px; 
+margin: 0px 160px 0px 0px;
+}
+
+.username
+{
+display: inline;
+font-size: 11pt;
+font-weight: bold;
+margin-right: 5px;
+}
+
+.rollover_button
+{
+display: none;
+}
+
+.load_more
+{
+position: relative;
+width: 100%;
+margin-bottom: 80px;
+}
+
+
+.footer_blue_bg
+{
+z-index: 1;
+width:100%;
+height: 358px;
+position:absolute;
+display: block;
+left: 0px;
+background-color: #00305a;
+}
+
+.footer
+{
+z-index: 2;
+display: block;
+position: relative;
+width: 1280px;
+height: 350px;  
+background-color: #00305a;
+font-family: sans-serif;
+font-size: 8pt;
+}
+
+.resources
+{
+float: left;
+position: relative;
+width: 300px;
+height: 300px;  
+margin-left: 160px;
+padding-right: 20px;
+color: white;
+text-align: left;
+}
+
+.resources a, .resources li
+{
+color: white;
+padding-bottom: 10px;
+text-decoration: none;
+}
+
+.resources a:hover
+{
+text-decoration: underline;
+}
+
+.about
+{
+float: left;
+position: relative;
+width: 300px;
+height: 300px;  
+text-align: left;
+color: white;
+padding-right: 20px;
+}
+
+.sponsers
+{
+float: left;
+position: relative;
+width: 320px;
+height: 300px;  
+color: white;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+}
+
+.copyright
+{
+float: left;
+position: relative;
+margin-left: 160px;
+margin-top: 5px;
+}
+
+.idea
+{
+float: right;
+position: relative;
+margin-right: 160px;
+margin-top: 5px;
+}
+
+.idea a
+{
+color: #00305a;
+}
